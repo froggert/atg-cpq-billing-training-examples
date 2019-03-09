@@ -1,7 +1,8 @@
-## Code Examples for Salesforce CPQ And Salesforce Billing
+# Code Examples for Salesforce CPQ And Salesforce Billing
 These code examples are the companion to the Salesforce Billing and Salesforce CPQ Apex training crash-course.
 
-Contained Examples:
+## Contained Examples
+
 | Name                             | Type                                | Description                                                                                                     |
 | -------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------- |
 | ApexUtils.cls                    | Apex Class                          | General utility class that should be provided in every project                                                  |
