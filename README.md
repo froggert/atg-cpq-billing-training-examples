@@ -18,6 +18,13 @@ These code examples are the companion to the Salesforce Billing and Salesforce C
 | CPQ_QuickQuote                   | Lightning Component Bundle (folder) | Example lightning component that can be used with a quick action to create a quote using the Salesforce CPQ API |
 
 
+## Other Resources
+### VSCode Salesforce CPQ Extension
+* **Link**:
+  * https://marketplace.visualstudio.com/items?itemName=paustint.sfdc-qcp-vscode-extension
+* **Blog Article**:
+  * https://medium.com/@paustint/getting-started-with-the-salesforce-cpq-quote-calculator-plugin-qcp-vscode-extension-718306ff40d4
 
-
+### Salesforce CPQ Api Docs
+* https://developer.salesforce.com/docs/atlas.en-us.cpq_dev_api.meta/cpq_dev_api/cpq_api_get_started.htm
 
