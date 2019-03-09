@@ -1,0 +1,41 @@
+<!--
+ - Created by austinturner on 6/27/18.
+ -->
+
+<aura:component
+    description="CPQ_QuickQuote"
+    implements="force:lightningQuickActionWithoutHeader,force:hasRecordId"
+    controller="CPQ_QuickQuoteController"
+>
+
+
+    <aura:attribute name="loading" type="boolean" default="true" />
+    <aura:attribute name="step" type="Integer" default="1" />
+    <aura:attribute name="errorMessage" type="string" />
+
+    <aura:attribute name="recordId" type="string" />
+
+    <aura:handler name="init" value="{!this}" action="{!c.doInit}" />
+
+    <div style="max-height: 200px; position: relative;">
+
+        <aura:if isTrue="{!and(v.step == 1, !v.errorMessage)}">
+            Creating new quote...
+        </aura:if>
+        <aura:if isTrue="{!and(v.step == 2, !v.errorMessage)}">
+            Calculating created quote...
+        </aura:if>
+
+        <aura:if isTrue="{! v.loading }">
+            {!v.errorMessage}
+        </aura:if>
+
+        <aura:if isTrue="{! v.loading }">
+            <div>
+                <lightning:spinner variant="brand" size="large" alternativeText="loading" class="slds-m-top--xx-large slds-p-top--xx-large" />
+            </div>
+        </aura:if>
+
+    </div>
+
+</aura:component>
