@@ -1,7 +1,7 @@
 # Code Examples for Salesforce CPQ And Salesforce Billing
 These code examples are the companion to the Salesforce Billing and Salesforce CPQ Apex training crash-course.
 
-## Contained Examples
+## Examples
 
 | Name                             | Type                                | Description                                                                                                     |
 | -------------------------------- | ----------------------------------- | --------------------------------------------------------------------------------------------------------------- |
